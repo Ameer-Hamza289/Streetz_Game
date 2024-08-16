@@ -13,6 +13,9 @@
   .font-helvetica-neue{
   font-family: 'HELVETICA NEUE';
 }
+  .font-techno-junk{
+  font-family: 'DK TECHNOJUNK';
+}
 
 /* ul{
   font-family: 'serif'!important;
@@ -25,4 +28,8 @@
 @font-face {
   font-family: 'HELVETICA NEUE';
   src: url('./assets/fonts/HelveticaNeue.ttc');
+}
+@font-face {
+  font-family: 'DK TECHNOJUNK';
+  src: url('./assets/fonts/DK-Technojunk.otf');
 }

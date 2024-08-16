@@ -25,10 +25,10 @@ const StreetzGamePoster = () => {
       }}
     >
       <div className="text-center p-4 z-10 pt-10">
-        <h1 className="text-7xl font-[900] text-yellow-400 mb-4 mt-12 font-helvetica-neue">
+        <h1 className="text-5xl font-bold text-yellow-400 mb-4 mt-12 font-techno-junk">
           STREETZ GAME
         </h1>
-        <p className="text-lg  mt-12 font-frente">
+        <p className="text-lg  mt-12 font-frente font-semibold">
           PLAY TO WIN TICKETS TO 'STREETZ FESTIVAL 2024'
         </p>
         <p className="font-semibold" style={{ fontSize: "8px" }}>
@@ -43,7 +43,7 @@ const StreetzGamePoster = () => {
           </a>
           ON INSTAGRAM BEFORE PLAYING TO BE ELIGIBLE
         </p>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center my-2">
           <input
             type="email"
             placeholder="Enter your email"
