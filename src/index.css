@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* *{
+  font-family: 'FRENTE H1';
+  } */
+  
+  .font-frente{
+  font-family: 'FRENTE H1';
+}
+  
+  .font-helvetica-neue{
+  font-family: 'HELVETICA NEUE';
+}
+
+/* ul{
+  font-family: 'serif'!important;
+} */
+
+@font-face {
+  font-family: 'FRENTE H1';
+  src: url('./assets/fonts/FrenteH1-Regular.otf');
+}
+@font-face {
+  font-family: 'HELVETICA NEUE';
+  src: url('./assets/fonts/HelveticaNeue.ttc');
+}
