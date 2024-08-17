@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import backgroundImage from "../assets/background.jpeg";
+import backgroundImage from "../assets/welcomeBg.png";
 import { useNavigate } from "react-router-dom";
 
 const StreetzGamePoster = () => {
@@ -17,18 +17,18 @@ const StreetzGamePoster = () => {
 
   return (
     <div
-      className="h-screen w-full flex items-center justify-center z-0 text-yellow-400 "
+      className="h-screen w-full flex flex-col items-center justify-end z-0 text-yellow-400 "
       style={{
         backgroundImage: `url(${backgroundImage})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
     >
-      <div className="text-center p-4 z-10 pt-10">
-        <h1 className="text-5xl font-bold text-yellow-400 mb-4 mt-12 font-techno-junk">
+      <div className=" text-center p-4 z-10 pb-12">
+        {/* <h1 className="text-5xl font-bold text-yellow-400 mb-4 mt-12">
           STREETZ GAME
-        </h1>
-        <p className="text-lg  mt-12 font-frente font-semibold">
+        </h1> */}
+        <p className="text-lg   font-frente font-semibold">
           PLAY TO WIN TICKETS TO 'STREETZ FESTIVAL 2024'
         </p>
         <p className="font-semibold" style={{ fontSize: "8px" }}>
